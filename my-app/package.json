@@ -1,0 +1,69 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "assert": "^2.1.0",
+    "assert-plus": "^1.0.0",
+    "autoprefixer": "^10.4.18",
+    "axios": "^1.6.8",
+    "bootstrap": "^5.3.3",
+    "browser-router": "^0.2.0",
+    "core-js": "^3.37.0",
+    "dotenv": "^16.4.5",
+    "js-cookie": "^3.0.5",
+    "link": "^2.1.0",
+    "mdb-react-ui-kit": "^7.2.0",
+    "postcss": "^8.4.35",
+    "razorpay": "^2.9.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-draggable": "^4.4.6",
+    "react-icons": "^5.0.1",
+    "react-pinch-zoom": "^0.1.4",
+    "react-pinch-zoom-pan": "^1.4.5",
+    "react-resizable": "^3.0.5",
+    "react-router-dom": "^6.23.1",
+    "react-scripts": "5.0.1",
+    "stream-browserify": "^3.0.0",
+    "switch": "^0.0.0",
+    "tw-elements-react": "^1.0.0-alpha2",
+    "use-location-state": "^3.1.2",
+    "uuid": "^9.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "dotenv-webpack": "^8.1.0",
+    "tailwindcss": "^3.4.1",
+    "webpack": "5.5.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^1.16.2"
+  }
+}

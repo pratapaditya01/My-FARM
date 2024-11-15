@@ -1,0 +1,39 @@
+.slider-container {
+    width: 100%; /* Full width */
+    overflow: hidden; /* Hide overflow */
+  }
+  
+  .slider-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .slide-content {
+    width: 100%; /* Full width */
+    padding: 20px; /* Add padding */
+    background-color: rgba(41, 235, 15, 0.849); /* Light gray background color */
+    color: #faf9f9; /* Dark gray text color */
+    text-align: center; /* Center align text */
+    font-size: 18px; /* Set font size */
+    font-weight: bold; /* Set font weight */
+  }
+  
+  .active {
+    display: block; /* Display active slide */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .slide-content {
+      font-size: 16px; /* Decrease font size for smaller screens */
+      padding: 15px; /* Decrease padding for smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .slide-content {
+      font-size: 14px; /* Further decrease font size for even smaller screens */
+      padding: 10px; /* Further decrease padding for even smaller screens */
+    }
+  }

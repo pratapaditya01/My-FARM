@@ -1,0 +1,81 @@
+/* Base styles */
+.navbar {
+    overflow: hidden;
+  }
+  
+  .delivery-info {
+    background-color: #59f16d;
+    color: #faf9f9;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Styles for product info */
+  .product-info {
+    background-color: #F9F8F7;
+    border: 2px solid #E9E7E4;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 100%; /* Set max-width to 100% */
+    margin: 20px auto;
+    display: flex; /* Add flexbox */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+  }
+  
+  .product-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center; /* Center the text */
+  }
+  
+  .product-info ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Make the list items display horizontally */
+    flex-wrap: wrap; /* Allow wrapping if necessary */
+    justify-content: space-between; /* Add space between items */
+    width: 100%; /* Ensure the list covers the entire width */
+  }
+  
+  .product-info li {
+    margin-bottom: 20px; /* Add margin between list items */
+    flex-basis: calc(25% - 20px); /* Set initial width for 4 items */
+    text-align: center; /* Center the text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .product-info li svg {
+    margin-bottom: 5px; /* Add space between icon and text */
+    font-weight: bold; /* Make the icon bold */
+    font-size: 30px; /* Increase the font size of the icon */
+  }
+  
+  
+  /* Media query for screens 768px wide */
+  @media only screen and (max-width: 768px) {
+    .delivery-info {
+      padding: 8px; /* Decrease padding for smaller screens */
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+  
+    .product-info li {
+      flex-basis: calc(50% - 20px); /* Adjust width for smaller screens */
+    }
+  }
+  
+  /* Media query for screens 576px wide */
+  @media only screen and (max-width: 576px) {
+    .delivery-info {
+      padding: 6px; /* Further decrease padding for smaller screens */
+      font-size: 12px; /* Further adjust font size for smaller screens */
+    }
+  
+    .product-info li {
+      flex-basis: calc(50% - 20px); /* Adjust width for smaller screens */
+    }
+  }
+  

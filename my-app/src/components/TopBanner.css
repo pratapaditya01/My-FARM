@@ -1,0 +1,30 @@
+/* Base styles */
+.navbar {
+    overflow: hidden;
+  }
+  
+  .delivery-info {
+    background-color: #59f16d;
+    color: #faf9f9;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold; 
+
+  }
+  
+  /* Media query for screens 768px wide */
+  @media only screen and (max-width: 768px) {
+    .delivery-info {
+      padding: 8px; /* Decrease padding for smaller screens */
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+  }
+  
+  /* Media query for screens 576px wide */
+  @media only screen and (max-width: 576px) {
+    .delivery-info {
+      padding: 6px; /* Further decrease padding for smaller screens */
+      font-size: 12px; /* Further adjust font size for smaller screens */
+    }
+  }
+  
